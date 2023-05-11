@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0 100%;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 5px;
+
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 14px;
+    margin: 4px;
+    font-weight: 1000;
+}
+
+.content{
+    height: 90vh;
+    position: absolute;
+    bottom: -165px;
+    left: 102px;
+    font-size: 49px;
+    font-style: italic;
+    color: aqua;
+}
+
+.Login {
+    width: 130px;
+    height: 40px;
+    border: 2px solid white;
+    color: aliceblue;
+    font-weight: 500;
+    background: transparent;
+    border-radius: 5px;
+    margin-left: 40px;
+    transition: .5s;
+
+}
+
+.Login:hover {
+    background: white;
+    color: rgb(214, 22, 150);
+}
+.fut{
+    position: absolute;
+    bottom: -160px;
+    font-size: 20ppx;
+    color: blue;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+
+ body { 
+    background-image: url(fortunar.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
